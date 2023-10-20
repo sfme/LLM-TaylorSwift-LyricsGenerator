@@ -2,6 +2,15 @@
 
 ## Taylor Swift Lyric Generation using fine-tuned LLM (distil-GPT-2 for now)
 
+#### Task: Lyrics Generation from Taylor Swift Albums (from Kaggle)
+
+- The original task can be seen in the Kaggle website, along with the dataset. [See here.](https://www.kaggle.com/datasets/ishikajohari/taylor-swift-all-lyrics-30-albums)
+
+- We will take a *Text Generation* approach to the problem; using *causal language modelling* LLMs. Note that a *Seq2Seq* approach could have been used.
+
+- We will fine-tune a pre-existing model like GPT-2 or distil-GPT-2 using a NVIDIA T4 GPU.
+
+
 #### Jupyter Notebooks (or Google Colab)
 
 - `lyrics_taylor_swift_preprocess_data_and_finetune_LLM.ipynb` used to run data-preprocessing.
